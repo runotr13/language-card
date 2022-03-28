@@ -1,0 +1,71 @@
+.card-wrapper{
+    border: 1px solid black;
+    width: 50ch;
+    margin: auto;
+    background-color: #F48B29;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border:none;
+    background-image: repeating-linear-gradient(
+        45deg,
+        #F38B29 0px 300px,
+        #53C0DD 300px 380px
+    );
+}
+.card-title{
+    text-align: center;
+    color: #273c75;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    width: 20ch;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 4px 4px 4px #fff;
+    padding: 10px;
+
+}
+.card{
+    background-color: #fff;
+    text-align: center;
+    width:20ch;
+    height:13ch;
+    margin:20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px purple;
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow: 4px 5px 6px purple;
+    transition: height .5s;
+}
+
+.card-images{
+    width: 5rem;
+    height:3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.card-images:hover{
+    width: 6rem;
+    height:4rem;
+    transition: width .3s;
+}
+.card-name{
+    font-size: 0.8rem;
+}
+.card-ul{
+    display:none;
+}
+.card-li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
